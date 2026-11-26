@@ -25,9 +25,8 @@ jobs:
         with:
           gradle-version: '8.8'
 
-      # ВОТ ТУТ ДОЛЖЕН БЫТЬ ШАГ СБОРКИ
       - name: Build mod
-        run: ./gradlew build
+        run: gradle build --stacktrace
 
       - name: Upload mod
         uses: actions/upload-artifact@v4
