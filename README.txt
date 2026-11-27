@@ -1,19 +1,20 @@
-CATLIFE - FIXED CAT MODEL PACK
+CATLIFE - 3D TOY ITEM MODELS
 
-Upload the folder contents into:
-src/main/resources/assets/catlife/
+Upload these files into:
+src/main/resources/assets/catlife/models/item/
 
-This pack contains:
-geo/entity/cat.geo.json
-animations/entity/cat.animation.json
-textures/entity/cat.png
+Replace:
+toy_ball.json
+toy_mouse.json
+yarn_ball.json
 
-IMPORTANT:
-- Replace the existing cat.geo.json.
-- Replace the existing cat.animation.json.
-- Replace textures/entity/cat.png with the included matching 64x64 texture.
-- Do not upload the outer folder itself; upload the files into the matching paths.
-- Keep your Java renderer/model/animatable files unchanged for this test.
+These models use existing texture identifiers:
+catlife:item/toy_ball
+catlife:item/toy_mouse
+catlife:item/yarn_ball
 
-This is a simple custom pixel-art ginger cat atlas designed to match this geometry.
-The model has a head, ears, muzzle, eyes, four separate legs and a two-part tail.
+They use vanilla item-model cuboids (elements), so no GeckoLib is required for the static 3D shape.
+The item JSON files only change the visual model; they do not change throwing or cat AI behavior.
+
+If an item appears invisible, check that the corresponding PNG exists under:
+src/main/resources/assets/catlife/textures/item/
