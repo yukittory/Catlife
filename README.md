@@ -1,18 +1,11 @@
-# Catlife — Forge 1.20.1 prototype
+# Catlife — Forge 1.20.1 prototype (updated)
 
-A starter project for Java 17 and Minecraft Forge 1.20.1.
+Adds hand-drawn 16x16 pixel textures and item models for three toys, and a cat toy-play goal.
 
-Included in this prototype:
-- three toy items: yarn ball, toy mouse, toy ball
-- simple server-side behavior: cats wander toward nearby cats and loose toys
-- small playful motion when cats meet near each other or toys
+- yarn ball, toy mouse, and toy ball now have item textures/models instead of missing-texture icons
+- toys are listed in the Tools & Utilities creative tab
+- cats investigate toys within 9 blocks, path toward them, and occasionally paw/toss toys with small hops
+- cats stop playing when commanded to sit
 
-## Easiest build: GitHub Actions (no Java/Gradle install needed locally)
-1. Create a GitHub account (if needed) and a new repository.
-2. Upload the contents of this ZIP into the repository (the `.github` folder must be included).
-3. Open the **Actions** tab. If asked, enable workflows.
-4. The build workflow runs on upload to `main`; alternatively select **Build Catlife mod** and click **Run workflow**.
-5. When the run finishes successfully, open it and download the artifact named **Catlife-mod-jar**.
-6. Put the resulting `.jar` in your Minecraft instance's `mods` folder. Install Forge 1.20.1 first.
-
-This is an early prototype; custom cat animations, beds, scratching posts, and full play-state AI are not yet implemented.
+Build with GitHub Actions. Java 17 and Gradle 8.8 are configured.
+This prototype uses vanilla movement/jumping. It does not yet include custom skeletal animations, furniture, or social play between cats.
