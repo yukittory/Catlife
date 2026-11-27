@@ -1,0 +1,241 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.model.idle": {
+      "loop": true,
+      "animation_length": 2.0,
+      "bones": {
+        "head": {
+          "rotation": [
+            {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                -2,
+                0,
+                0
+              ],
+              "time": 1
+            },
+            {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "time": 2
+            }
+          ]
+        },
+        "tail": {
+          "rotation": [
+            {
+              "vector": [
+                -18,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                -28,
+                0,
+                0
+              ],
+              "time": 1
+            },
+            {
+              "vector": [
+                -18,
+                0,
+                0
+              ],
+              "time": 2
+            }
+          ]
+        }
+      }
+    },
+    "animation.model.walk": {
+      "loop": true,
+      "animation_length": 0.8,
+      "bones": {
+        "leg_front_left": {
+          "rotation": [
+            {
+              "vector": [
+                25,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                -25,
+                0,
+                0
+              ],
+              "time": 0.4
+            },
+            {
+              "vector": [
+                25,
+                0,
+                0
+              ],
+              "time": 0.8
+            }
+          ]
+        },
+        "leg_back_right": {
+          "rotation": [
+            {
+              "vector": [
+                25,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                -25,
+                0,
+                0
+              ],
+              "time": 0.4
+            },
+            {
+              "vector": [
+                25,
+                0,
+                0
+              ],
+              "time": 0.8
+            }
+          ]
+        },
+        "leg_front_right": {
+          "rotation": [
+            {
+              "vector": [
+                -25,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                25,
+                0,
+                0
+              ],
+              "time": 0.4
+            },
+            {
+              "vector": [
+                -25,
+                0,
+                0
+              ],
+              "time": 0.8
+            }
+          ]
+        },
+        "leg_back_left": {
+          "rotation": [
+            {
+              "vector": [
+                -25,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                25,
+                0,
+                0
+              ],
+              "time": 0.4
+            },
+            {
+              "vector": [
+                -25,
+                0,
+                0
+              ],
+              "time": 0.8
+            }
+          ]
+        },
+        "body": {
+          "position": [
+            {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                0,
+                0.5,
+                0
+              ],
+              "time": 0.4
+            },
+            {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "time": 0.8
+            }
+          ]
+        },
+        "tail": {
+          "rotation": [
+            {
+              "vector": [
+                -18,
+                0,
+                0
+              ],
+              "time": 0
+            },
+            {
+              "vector": [
+                -28,
+                0,
+                0
+              ],
+              "time": 0.4
+            },
+            {
+              "vector": [
+                -18,
+                0,
+                0
+              ],
+              "time": 0.8
+            }
+          ]
+        }
+      }
+    }
+  }
+}
