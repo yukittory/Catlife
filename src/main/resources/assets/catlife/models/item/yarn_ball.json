@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "gui_light": "front",
   "textures": {
     "layer0": "catlife:item/yarn_ball"
   },
